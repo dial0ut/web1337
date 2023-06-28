@@ -10,8 +10,8 @@ const GetWhitelisted: React.FC = () => {
   };
 
   return (
-    <div style={{  paddingBottom: '35rem', paddingTop:'1rem' }}>
-      <h1 >Get Whitelisted Page</h1>
+    <div style={{  paddingBottom: '45rem', paddingTop:'1rem' }}>
+      <h1 >𝙶𝚎𝚝 𝚆𝚑𝚒𝚝𝚎𝚕𝚒𝚜𝚝𝚎𝚍</h1>
       <div style={{ display: 'flex', alignItems: 'center', marginBottom: '1rem' }}>
         <input
           type="email"

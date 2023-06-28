@@ -11,42 +11,42 @@ const Navigation: React.FC = () => {
         justify="center"
         py={2}
         position="fixed"
-        top={0}
+        top={80}
         left={0}
         right={150}
         zIndex={999}
-        bg="white"
+        bg="black"
         boxShadow="md"
         direction="row"
         
       >
         <Link to="/">
-          <Text fontSize="lg" fontWeight="bold" color="black" ml={100}>
-            Home
+          <Text fontSize="xl" fontWeight="bold" color="white" ml={100}>
+          𝙷𝚘𝚖𝚎 
           </Text>
         </Link>
         <Link to="/about">
-          <Text fontSize="lg" fontWeight="bold" color="black" ml={100}>
-            About
+          <Text fontSize="lg" fontWeight="bold" color="white" ml={100}>
+          𝙰𝚋𝚘𝚞𝚝 
           </Text>
         </Link>
         <Link to="/roadmap">
-          <Text fontSize="lg" fontWeight="bold" color="black" ml={100}>
-            Roadmap
+          <Text fontSize="lg" fontWeight="bold" color="white" ml={100}>
+           𝚁𝚘𝚊𝚍𝚖𝚊𝚙
           </Text>
         </Link>
         <Link to="/get-whitelisted">
-          <Text fontSize="lg" fontWeight="bold" color="black" ml={100}>
-            Get Whitelisted
+          <Text fontSize="lg" fontWeight="bold" color="white" ml={100}>
+          𝙶𝚎𝚝 𝚆𝚑𝚒𝚝𝚎𝚕𝚒𝚜𝚝𝚎𝚍 
           </Text>
         </Link>
         <Link to="/contact">
-          <Text fontSize="lg" fontWeight="bold" color="black" ml={100}>
-            Contact
+          <Text fontSize="lg" fontWeight="bold" color="white" ml={100}>
+          𝙲𝚘𝚗𝚝𝚊𝚌𝚝
           </Text>
         </Link>
       </Flex>
-   
+     
     </>
   );
 };
